@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Updates from './components/updates/updates';
+import About from './components/AboutUS/AboutUs';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             element={
               <>
                 <Home />
+                <About />
                 <Updates />
               </>
             }
