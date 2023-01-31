@@ -62,7 +62,7 @@
 .msponsers h1 {
   display: inline-block;
   margin-top: 10vh;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   position: relative;
   font-size: 60px;
   font-weight: 500;
@@ -122,10 +122,15 @@
     top: 31%;
   }
   .msponsers {
+    background-image: url('./images/FAIN.png');
     height: 100vh;
+  }
+  .msponser {
+    opacity: 0.5;
   }
   .scale {
     transform: scale(1.5);
+    opacity: 1;
   }
   msponsers h1 {
     font-size: 3rem;
@@ -136,6 +141,8 @@
     padding-bottom: 100%;
     padding-top: 50%;
     width: 100%;
+    background-image: none;
+    background: none;
   }
   .details {
     padding: 25px;
