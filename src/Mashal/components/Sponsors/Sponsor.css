@@ -58,6 +58,7 @@
 .msponser img {
   height: 8rem;
   border-radius: 30px;
+  box-shadow: 0 6px 6px grey;
 }
 .msponsers h1 {
   display: inline-block;
@@ -94,6 +95,7 @@
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  border-radius: 30px;
 }
 
 /* #msponser1 img {
